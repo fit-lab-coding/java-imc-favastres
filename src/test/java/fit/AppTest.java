@@ -12,14 +12,12 @@ import org.junit.Test;
  * Sobrepeso, quando o resultado está entre 24,9 e 30 kg/m2;
  * Obesidade, quando o resultado é maior que 30 kg/m2;
  */
-public class AppTest 
-{
+public class AppTest {
     /**
      * Based on input, this calculation must return Magreza
      */
     @Test
-    public void shouldCalculateMagreza()
-    {
+    public void shouldCalculateMagreza() {
         // arrange
         double altura = 1.77;
         double peso = 50;
@@ -35,8 +33,7 @@ public class AppTest
      * Based on input, this calculation must return Magreza
      */
     @Test
-    public void shouldCalculateNormal()
-    {
+    public void shouldCalculateNormal() {
         // arrange
         double altura = 1.77;
         double peso = 70;
@@ -52,8 +49,7 @@ public class AppTest
      * Based on input, this calculation must return Sobrepeso
      */
     @Test
-    public void shouldCalculateSobrepeso()
-    {
+    public void shouldCalculateSobrepeso() {
         // arrange
         double altura = 1.77;
         double peso = 83;
@@ -69,8 +65,7 @@ public class AppTest
      * Based on input, this calculation must return Obesidade
      */
     @Test
-    public void shouldCalculateObesidade()
-    {
+    public void shouldCalculateObesidade() {
         // arrange
         double altura = 1.77;
         double peso = 100;
